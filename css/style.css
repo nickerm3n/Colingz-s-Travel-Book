@@ -1,0 +1,286 @@
+header {
+	height: 740px;
+	background-image: linear-gradient(180deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(../images/photo_vernazza1_b1.jpg);
+	border: 1px solid white;
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+.logo {
+	text-decoration: none;
+	color: yellow;
+	font-size: 26px;
+	font-family: 'Bree Serif', serif;
+	position: absolute;
+	top: 45px;
+	left: 100px;
+}
+
+.logo span {
+	color: #fff;
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+
+ul {
+	padding-left: 0;
+	margin: 0;
+	display: inline-block;
+	margin-top: 45px;
+	position: absolute;
+	right: 120px;
+}
+
+ul li {
+	display: inline-block;
+	margin-left: 35px;
+}
+
+.menu-list {
+	width: 35px;
+	height: 55px;
+	background-color: #fff;
+	border-left: 25px solid #fff;
+	border-top-left-radius:50%;
+	border-bottom-left-radius: 50%;
+	display: inline-block;
+	float: right;
+	box-shadow: -3px 2px 18px -5px rgba(0,0,0,255);
+	margin-top: 26px;
+}
+
+.menu-button {
+	width: 21px;
+	border-bottom: 4px solid black;
+	margin-top: 15px;
+}
+
+.menu-button:before {
+	content: '';
+	width: 21px;
+	border-bottom: 4px solid black;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.menu-button:after {
+	content: '';
+	width: 21px;
+	border-bottom: 4px solid black;
+	display: block;
+	margin-bottom: 5px;
+}
+
+
+.text-block {
+	width: 600px;
+	margin: 0 auto;
+	color: white;
+	margin-top: 20%;
+	text-align: center;
+}
+
+.text-block h1, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.text-block h1 {
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 5px;
+	line-height: 50px;
+	font-size: 36px;
+
+}
+
+.text-block p {
+	line-height: 180%;
+	font-size: 19px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.prev-page {
+	color: white;
+	margin-top: 170px;
+	display: inline-block;
+
+}
+
+span:first-line {
+	font-weight: bold;
+}
+
+.prev-page .larr {
+	font-size: 30px;
+	font-weight: bold;
+	vertical-align: top;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	margin-right: 35px;
+	margin-left: 111px;
+}
+
+.next-page {
+	color: #fff;
+	display: inline-block;
+	float: right;
+	margin-top: 170px;
+}
+
+.next-page .rarr{
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	float: right;
+	margin-right: 111px;
+	margin-left: 35px;
+	vertical-align: top;
+}
+
+.text-section1 span{
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 180%;
+}
+
+.text-section2 span{
+	display: inline-block;
+	float: right;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 180%;
+}
+
+.text-section2 span:first-line{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+section {
+	height: 100%;
+	background-color: #f5f5f5;
+	padding: 0 111px;
+	padding-top: 105px;
+}
+
+.block-1 {
+	height: 100%;
+	position: relative;
+	box-sizing: border-box;
+}
+
+
+.pic-1 {
+	box-sizing: border-box;
+	height: 630px;
+	width: 47%;
+	display: inline-block;
+}
+
+.pic-1 img {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.pic-2 {
+	box-sizing: border-box;
+	width: 47%;
+	height: 302px;
+	background-image: linear-gradient(180deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(../images/fontana-trevi.jpg);
+	position: absolute;
+	top:0;
+	right: 0;
+	background-size: cover;
+}
+
+.pic-2 h2 {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	color: white;
+	margin-top: 122px;
+}
+
+.pic-2 a {
+	text-align: center;
+	display: block;
+	font-size: 25px;
+	text-decoration: none;
+	color: yellow;
+	margin-top: 24px;
+	font-family: 'Bree Serif', serif;
+}
+
+.pic-3 {
+	box-sizing: border-box;
+	width: 47%;
+	height: 302px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	top: 328px;
+}
+
+.pic-3 img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.pic-4 {
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 26px;
+	background-size: cover;
+}
+
+.pic-4 img {
+	width: 100%;
+	height: 100%;
+}
+
+.block-1 p {
+	margin: 105px auto;
+	text-align: center;
+	font-size: 16px;
+}
+
+.pic-block {
+	width: 47%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.pic-5 {
+	width: 100%;
+	height: 302px;
+	margin-bottom: 25px;
+}
+
+.pic-6 {
+	width: 100%;
+	height: 302px;
+}
+
+.right-side {
+	display: inline-block;
+	width: 46%;
+	height: 632px;
+	background-size: cover;
+	background-position: center;
+	float: right;
+}
+
+.pic-7 {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
